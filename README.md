@@ -10,7 +10,7 @@ Python: 3.8.0
 ## Build Virtual Environment (Using Conda)
 
 ```
-!pip install torch==1.9.1 -y 
+!pip install torch==1.9.1 -y or pip install torch==1.7.1 -y
 !pip install torchio==0.18.62 -y
 !pip install segmentation_models_pytorch
 !pip install albumentations==1.1.0 -y
