@@ -3,7 +3,7 @@
 
 ```
 OS: Ubuntu 18.06
-CUDA: 10.2
+CUDA: 10.2 or 10.1
 GPU: Nvidia GTX 1080Ti x 1
 Python: 3.8.0
 ```
