@@ -75,15 +75,15 @@ class DataLoaderSegmentation(object):
             volume = np.fliplr(volume)
         return volume
 
-class logs_realtime_reply:
-    def __init__(self):
-        self.avg_dice = 0.0
-        self.avg_loss=np.inf
-        self.avg_tn = 0
-        self.avg_fp = 0
-        self.avg_fn = 0
-        self.running_metic = {"Loss":0, "dice_coef": 0,  "IoU":0, "TP":0, "FP":0, "FN": 0}
-        self.end_epoch_metric = None
+# class logs_realtime_reply:
+#     def __init__(self):
+#         self.avg_dice = 0.0
+#         self.avg_loss=np.inf
+#         self.avg_tn = 0
+#         self.avg_fp = 0
+#         self.avg_fn = 0
+#         self.running_metic = {"Loss":0, "dice_coef": 0,  "IoU":0, "TP":0, "FP":0, "FN": 0}
+#         self.end_epoch_metric = None
 class logs_realtime_reply:
     def __init__(self):
         self.running_metic = {"Loss":0, "dice_coef": 0,  "IoU":0, "Spec":0, "Sens":0}
